@@ -76,7 +76,7 @@ class EnergyOntology {
         nodes[.relativistic] = EnergyNode(
             type: .relativistic,
             baseSymbols: [
-                Symbol(name: "lne", value: 2.718, description: "Natural logarithmic base"),
+                Symbol(name: "lne", value: 1.0, description: "Natural logarithmic base"),
                 Symbol(name: "gamma", value: 1.0, description: "Lorentz factor"),
                 Symbol(name: "mcmod2", value: 0.0, description: "Mass-energy equivalence")
             ]
